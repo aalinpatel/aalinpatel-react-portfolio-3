@@ -1,18 +1,18 @@
-const logotext = "JOHN";
+const logotext = "AALIN";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Aalin Patel",
+    description: "I'm Aalin Patel (Citzen), a computer science post grad looking for work in Melbourne, Australia",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Aalin Patel",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "computer science graduate",
+        second: "passion for software development",
+        third: "passion for machine learning",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "a lover of creative problem-solving through modern programming languages, spanning both front and back-end development. My enthusiasm for data science and machine learning algorithms drives me to bring theoretical knowledge into practical, industry-level applications. I’m eager to contribute my technical skills in a collaborative environment, always with a friendly and approachable attitude",
+    your_img_url: require('./assets/images/IMG_9437.jpg'), // Import the image
 };
 
 const dataabout = {
@@ -74,71 +74,61 @@ const services = [{
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Full Stack Web Application for E-Commerce Platform | ReactJS, Node.js, Express.js, and Cloud MySQL",
+        link: "./ecommerce-platform",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Minecraft Procedural Village Generator | Python",
+        link: "./minecraft-generator",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Online Veterinary Clinic Management System | Java & mySQL",
+        link: "./vetcare",
     },
     {
         img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "AI-Enhanced Game Development with Steering Behaviors and Search Algorithms | C#, Unity",
+        link: "/ai-game-dev",
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "University Course Enrolment System Prototype | Python",
+        link: "./course-enrolment",
     },
     {
         img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Cancer Cell Classification Using Machine Learning | Python",
+        link: "cancer-classification",
     },
 
     {
         img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Program and Course Alignment Web Scrapping Tool (PCAT++) | Python, Flask",
+        link: "./pcat-tool",
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Closing the Gap – Social Challenge Web Application | Java",
+        link: "./closing-the-gap",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Grocery Store Application | Typescript, Angular",
+        link: "grocery-store",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+        description: " Cloud-Based Music Subscription Application | AWS",
+        link: "cloud-music-app",
+    }
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "aalinpatel@outlook.com",
+    YOUR_FONE: "0450266802",
+    description: "I'm always looking for chances to network and meet new people in the industry, please don't hesitate to contact me for any opportunities! ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +137,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
     linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
 };
 export {
     meta,
